@@ -6,15 +6,29 @@ public class Anagram {
         String str2 = "Care";
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
-        System.out.println(str1);
-        System.out.println(str2);
+        char [] s1 = str1.toCharArray();
+        char[] s2 = str2.toCharArray();
 
-        for (int i = 0; i < str1.length()-1; i++) {
-            for (int j = i; j < str1.length()-1; j++) {
-                String temp;
-//                temp =  str1[i];
+        System.out.println("str1 : " + str1);
+//        System.out.println(str2);
+        char temp ;
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i <= str1.length()-1; i++) {
+            for (int j = i; j <= str1.length()-1; j++) {
+
+                temp =  str1.charAt(i);
+                s1[i] = s1[j];
+                s1[j] = temp;
+//                System.out.println("tem: " + new String(s1));
+                System.out.println(str1.charAt(i));
 
             }
+//            if(s1 == s2) {
+//                System.out.println("yes");
+//            }
+//            System.out.println(s1);
         }
 
 
