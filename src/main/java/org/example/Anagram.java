@@ -1,5 +1,9 @@
 package org.example;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Anagram {
     public void isAnagram(){
         String str1 = "Race";
@@ -9,30 +13,19 @@ public class Anagram {
         char [] s1 = str1.toCharArray();
         char[] s2 = str2.toCharArray();
 
-        System.out.println("str1 : " + str1);
-//        System.out.println(str2);
-        char temp ;
+        System.out.println(s1);
+        Arrays.sort(s1);
+        Arrays.sort(s2);
+        System.out.println(s1);
 
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 0; i <= str1.length()-1; i++) {
-            for (int j = i; j <= str1.length()-1; j++) {
-
-                temp =  str1.charAt(i);
-                s1[i] = s1[j];
-                s1[j] = temp;
-//                System.out.println("tem: " + new String(s1));
-                System.out.println(str1.charAt(i));
-
-            }
-//            if(s1 == s2) {
-//                System.out.println("yes");
-//            }
-//            System.out.println(s1);
+        Boolean a = str1.length() == str2.length();
+        Boolean b = Arrays.equals(s1,s2);
+        if(a==b){
+            System.out.println("yes");
+        }else{
+            System.out.println("No");
         }
 
-
-
-
+        }
     }
-}
+
