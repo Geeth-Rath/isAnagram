@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c603b10-4a3e-4186-9bed-96078f47683c" name="Changes" comment="commited second">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UniqueString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="5c603b10-4a3e-4186-9bed-96078f47683c" name="Changes" comment="uniqueness of string">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RotateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UniqueString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UniqueString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +89,29 @@
       <option name="project" value="LOCAL" />
       <updated>1704214885864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="uniqueness of string">
+      <option name="closed" value="true" />
+      <created>1704299328943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704299328943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commited" />
     <MESSAGE value="commited second" />
-    <option name="LAST_COMMIT_MESSAGE" value="commited second" />
+    <MESSAGE value="uniqueness of string" />
+    <option name="LAST_COMMIT_MESSAGE" value="uniqueness of string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

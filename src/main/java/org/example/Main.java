@@ -9,7 +9,9 @@ public class Main {
 //Anagram a = new Anagram();
 //a.isAnagram();
 
-        UniqueString u = new UniqueString();
-        u.isUnique();
+//        UniqueString u = new UniqueString();
+//        u.isUnique();
+        RotateString rs = new RotateString();
+        System.out.println(rs.isRotated("ajav"));
     }
 }
