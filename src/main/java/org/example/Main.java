@@ -4,14 +4,16 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
 //Anagram a = new Anagram();
 //a.isAnagram();
 
 //        UniqueString u = new UniqueString();
 //        u.isUnique();
-        RotateString rs = new RotateString();
-        System.out.println(rs.isRotated("ajav"));
+//        RotateString rs = new RotateString();
+//        System.out.println(rs.isRotated("ajav"));
+//        DuplicateCharCount dc = new DuplicateCharCount();
+//        dc.isDuplicate();
+        AllSubStrings as = new AllSubStrings();
+        as.getAllSubStrings();
     }
 }
